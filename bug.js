@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Constants.deviceId` within a function that's called asynchronously, such as a network request. The `Constants.deviceId` might not be available yet because the device information hasn't fully loaded when the function is executed.  This results in an undefined value instead of the expected device ID. 
